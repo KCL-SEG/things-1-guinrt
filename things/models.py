@@ -7,4 +7,3 @@ class Thing(models.Model):
     quantity = models.IntegerField(
         validators = [MaxValueValidator(100), MinValueValidator(0)]
     )
-# Create your models here.
